@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treinamento em Tecnologia e Sistemas de Informação</title>
+  <style>
+    :root {
+      --cor-primaria: #1e2a38;
+      --cor-secundaria: #3a4f63;
+      --cor-acento: #00bcd4;
+      --cor-fundo: #f0f4f8;
+      --cor-texto: #2c3e50;
+      --cor-branca: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+    }
+
+    header {
+      background: linear-gradient(to right, var(--cor-primaria), var(--cor-secundaria));
+      color: var(--cor-branca);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.3em;
+      opacity: 0.9;
+    }
+
+    nav {
+      background-color: var(--cor-primaria);
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--cor-branca);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--cor-acento);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 40px;
+      background: var(--cor-branca);
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: var(--cor-secundaria);
+      border-left: 5px solid var(--cor-acento);
+      padding-left: 10px;
+    }
+
+    section p, section ul {
+      font-size: 1.1em;
+      line-height: 1.8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    footer {
+      background-color: var(--cor-secundaria);
+      color: var(--cor-branca);
+      text-align: center;
+      padding: 25px;
+      margin-top: 60px;
+    }
+
+    a {
+      color: var(--cor-acento);
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Treinamento em Tecnologia e Sistemas de Informação</h1>
+    <p>Prepare-se para o futuro com uma base sólida em sistemas de informação e tecnologia</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#treinamento">Conteúdo</a>
+    <a href="#inscricao">Inscrição</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="sobre">
+    <h2>Sobre o Curso</h2>
+    <p>Este treinamento oferece uma introdução completa aos conceitos fundamentais de Tecnologia e Sistemas de Informação. É ideal para estudantes, profissionais em transição de carreira ou qualquer pessoa interessada em compreender como a tecnologia transforma as organizações.</p>
+  </section>
+
+  <section id="treinamento">
+    <h2>Conteúdo Programático</h2>
+    <ul>
+      <li>Fundamentos de Sistemas de Informação</li>
+      <li>Infraestrutura Tecnológica e Computação em Nuvem</li>
+      <li>Gestão de Dados e Segurança da Informação</li>
+      <li>Automatização de Processos e Ferramentas Empresariais</li>
+      <li>Estudos de Caso e Aplicabilidade Real</li>
+    </ul>
+  </section>
+
+  <section id="inscricao">
+    <h2>Inscrição</h2>
+    <p>Inscreva-se preenchendo o formulário abaixo. Em poucos minutos você estará mais perto de transformar sua carreira com conhecimento de qualidade.</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffRay_hrIs7kVsk3pTL-b9LS-TZ83oJyKS3G0Adgbph6adYg/viewform?embedded=true" height="600">Carregando…</iframe>
+  </section>
+
+  <section id="resultados">
+    <h2>Resultados do Formulário</h2>
+    <p>Acompanhe abaixo a análise gráfica com base nas respostas recebidas:</p>
+    <iframe width="601" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuUKtHxGqBViBxzeRa69kMZgrWpBqoon_MkshVTM3XPDFFubjlfBLoo18GIZSL6Jd1WxWy_2UByqQr/pubchart?oid=773425162&amp;format=interactive"></iframe>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Em caso de dúvidas ou sugestões, entre em contato pelo e-mail: <a href="mailto:contato@treinamentotsi.com">contato@treinamentotsi.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 - Treinamento TSI. Todos os direitos reservados.
+  </footer>
+</body>
+</html>

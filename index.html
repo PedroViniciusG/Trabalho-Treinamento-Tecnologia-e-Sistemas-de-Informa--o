@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Treinamento em Tecnologia e Sistemas de Informação</title>
+  <title>ConectTI - Aprenda Tecnologia e Sistemas de Informação</title>
   <style>
     :root {
       --cor-primaria: #1e2a38;
@@ -34,12 +34,12 @@
     }
 
     header h1 {
-      font-size: 3em;
+      font-size: 2.8em;
       margin-bottom: 10px;
     }
 
     header p {
-      font-size: 1.3em;
+      font-size: 1.2em;
       opacity: 0.9;
     }
 
@@ -96,6 +96,14 @@
       margin-top: 20px;
     }
 
+    .imagem-banner {
+      width: 80%;
+      max-width: 600px;
+      display: block;
+      margin: 30px auto;
+      border-radius: 8px;
+    }
+
     footer {
       background-color: var(--cor-secundaria);
       color: var(--cor-branca);
@@ -111,11 +119,26 @@
     a:hover {
       text-decoration: underline;
     }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Treinamento em Tecnologia e Sistemas de Informação</h1>
+    <h1>ConectTI - Aprenda Tecnologia e Sistemas de Informação</h1>
     <p>Prepare-se para o futuro com uma base sólida em sistemas de informação e tecnologia</p>
   </header>
 
@@ -129,17 +152,21 @@
 
   <section id="sobre">
     <h2>Sobre o Curso</h2>
-    <p>Este treinamento oferece uma introdução completa aos conceitos fundamentais de Tecnologia e Sistemas de Informação. É ideal para estudantes, profissionais em transição de carreira ou qualquer pessoa interessada em compreender como a tecnologia transforma as organizações.</p>
+    <img src="imagens/curso.jpg" alt="Equipe de tecnologia trabalhando" class="imagem-banner">
+    <p>Este treinamento oferece uma introdução completa e acessível aos conceitos fundamentais de Tecnologia e Sistemas de Informação. Ele foi projetado para atender tanto iniciantes quanto profissionais que desejam ampliar seus conhecimentos em TI, com foco na aplicação prática e tendências do mercado atual.</p>
   </section>
 
   <section id="treinamento">
     <h2>Conteúdo Programático</h2>
+    <p>Nosso programa é cuidadosamente estruturado para oferecer uma experiência de aprendizado clara, progressiva e eficaz. Os participantes terão acesso aos seguintes módulos:</p>
     <ul>
-      <li>Fundamentos de Sistemas de Informação</li>
-      <li>Infraestrutura Tecnológica e Computação em Nuvem</li>
-      <li>Gestão de Dados e Segurança da Informação</li>
-      <li>Automatização de Processos e Ferramentas Empresariais</li>
-      <li>Estudos de Caso e Aplicabilidade Real</li>
+      <li><strong>Introdução aos Sistemas de Informação:</strong> Conceitos básicos, componentes de um SI, tipos e funções nas organizações.</li>
+      <li><strong>Infraestrutura Tecnológica:</strong> Hardware, software, redes e seus papéis no suporte aos negócios.</li>
+      <li><strong>Gestão de Dados:</strong> Banco de dados, Big Data, modelagem e proteção de informações sensíveis.</li>
+      <li><strong>Segurança da Informação:</strong> Riscos cibernéticos, políticas de segurança e boas práticas de proteção digital.</li>
+      <li><strong>Computação em Nuvem:</strong> Conceitos de cloud computing, vantagens e exemplos de aplicações.</li>
+      <li><strong>Automatização e Ferramentas Empresariais:</strong> Softwares e plataformas que aumentam a eficiência organizacional.</li>
+      <li><strong>Estudos de Caso:</strong> Análise de cenários reais de aplicação de sistemas de informação em empresas.</li>
     </ul>
   </section>
 
@@ -151,17 +178,22 @@
 
   <section id="resultados">
     <h2>Resultados do Formulário</h2>
-    <p>Acompanhe abaixo a análise gráfica com base nas respostas recebidas:</p>
-    <iframe width="601" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuUKtHxGqBViBxzeRa69kMZgrWpBqoon_MkshVTM3XPDFFubjlfBLoo18GIZSL6Jd1WxWy_2UByqQr/pubchart?oid=773425162&amp;format=interactive"></iframe>
+    <p>Acompanhe abaixo a análise das pessoas interessadas no curso:</p>
+    <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRuUKtHxGqBViBxzeRa69kMZgrWpBqoon_MkshVTM3XPDFFubjlfBLoo18GIZSL6Jd1WxWy_2UByqQr/pubchart?oid=2114624244&amp;format=interactive"></iframe>
   </section>
 
   <section id="contato">
     <h2>Contato</h2>
-    <p>Em caso de dúvidas ou sugestões, entre em contato pelo e-mail: <a href="mailto:contato@treinamentotsi.com">contato@treinamentotsi.com</a></p>
+    <p>Em caso de dúvidas ou sugestões, entre em contato pelos canais abaixo:</p>
+    <ul>
+      <li><strong>E-mail:</strong> <a href="mailto:contato@treinamentotsi.com">contato@treinamentotsi.com</a></li>
+      <li><strong>Telefone:</strong> (31) 98765-4321</li>
+      <li><strong>Endereço:</strong> Rua da Tecnologia, 123 - Centro, Belo Horizonte - MG</li>
+    </ul>
   </section>
 
   <footer>
-    &copy; 2025 - Treinamento TSI. Todos os direitos reservados.
+    &copy; 2025 - ConectTI. Todos os direitos reservados.
   </footer>
 </body>
 </html>
